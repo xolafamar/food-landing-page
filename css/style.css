@@ -1,0 +1,74 @@
+/*css*/
+/* 
+start banner
+*/
+
+body {
+  font-size: 100%;
+  font-family: "Jim Nightshade", cursive;
+}
+
+#banner {
+  overflow: hidden !important;
+}
+section {
+  background: url(../img/1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  padding: 1em 0 5em 0;
+  overflow: ;
+}
+.container h1 {
+  color: red;
+  display: inline;
+}
+.container p {
+  color: red;
+  font-size: 3em;
+  padding-top: 1em;
+  font-size: 3em;
+  font-weight: bolder;
+}
+#banner button {
+  background: red;
+  opacity: 0.6;
+  border-radius: 0 !important;
+  color: white;
+}
+
+@media screen and (max-width: 768px) {
+  #banner button {
+    width: 100%;
+  }
+}
+
+form {
+  font-weight: 900;
+}
+.form-control {
+  border-radius: 0;
+  margin-right: 0.15em;
+}
+
+.margin a {
+  padding: 2em;
+
+  font-size: 4em;
+  background-color: rd;
+  color: red;
+  padding: 0.3em;
+  border-radius: 50%;
+}
+
+.margin {
+  margin-top: 2em;
+}
+/* 
+countdown 
+*/
+
+.countdown {
+  margin-bottom: -1em;
+}
